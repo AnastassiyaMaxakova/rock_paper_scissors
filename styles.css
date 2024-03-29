@@ -1,0 +1,100 @@
+body{
+    background-color: rgba(0, 0, 0, 0.86);
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+body > *{
+    width: 100%;
+}
+#title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: aliceblue;
+    font-weight: 500;
+    font-family: monospace;
+    height: 15vh;
+    flex-wrap: wrap;
+}
+
+footer{
+    height: 5vh;
+}
+
+#display{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(29, 34, 73, 0.816);
+    height: 80vh;
+    color:aliceblue;
+    
+}
+#display >*{
+    width: 50%;
+}
+
+#result {
+    font-size: 2.5rem;
+    height: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+#choices {
+
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.scoreBox{
+    background-color:rgba(53, 63, 138, 0.816);
+    margin: 5px;
+    border-radius: 5px;
+    height: 50%;
+    text-align: center;
+    color: aliceblue;
+    font-family: monospace;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex: 1;
+    gap: 50px;
+    font-weight: bold;
+
+}
+#buttons {
+    height: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#buttons >*{
+    font-size: 2rem;
+    height: 20vh;
+    flex: 1;
+    border-radius: 5px;
+    border: none;
+    margin: 5px;
+    background-color:rgba(53, 63, 138, 0.816);
+    color: aliceblue;
+    font-weight: bold;
+}
+
+#buttons >*:hover{
+    background-color:rgb(59, 70, 153);
+}
