@@ -100,7 +100,11 @@ footer{
 }
 
 #resetBtn{
-    height: 5vh;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    padding: 5px;
+    justify-content: center;
     margin-bottom: 10px;
     width: 40%;
     font-size: 2rem;
